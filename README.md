@@ -40,9 +40,10 @@ Se implementó un script de ETL que procesa los datos de SKU y almacén para gen
 2. Almacenamiento Estructurado (MySQL)
 
 Diseño de un esquema relacional que garantiza integridad y rapidez en las consultas. Se aplicaron índices en columnas clave (Date, SKU_ID, Region) para optimizar el rendimiento del dashboard interactivo.
+
 3. Inteligencia de Negocio (Power BI)
 
-## El dashboard final presenta una visión ejecutiva de 360°:
+El dashboard final presenta una visión ejecutiva de 360°:
 
     Executive KPIs: Ventas Totales ($33.43M), Margen de Utilidad (33.2%) y Precisión del Pronóstico (83.8%).
 
@@ -54,6 +55,6 @@ Diseño de un esquema relacional que garantiza integridad y rapidez en las consu
 
     Precisión del Modelo: El modelo de demanda mantiene una precisión del 83.8%, permitiendo una planificación financiera estable.
 
-    Riesgo Operativo: Se identificaron zonas críticas de inventario en las regiones East y West, donde los niveles de stock están por debajo del punto de reorden seguro.
+    Riesgo Operativo: Se identificaron zonas críticas de inventario en todas las regiones, indicando una necesidad de ajuste general en los puntos de reorden.
 
     Correlación de Precios: El análisis de dispersión confirma una relación lineal saludable entre costos y precios, manteniendo un margen operativo robusto del 33.2%.
